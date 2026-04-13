@@ -1,0 +1,49 @@
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.csproj.AssemblyReference.cache
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.AssemblyInfoInputs.cache
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.AssemblyInfo.cs
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.csproj.CoreCompileInputs.cache
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\appsettings.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Attendance Monitoring v2.staticwebassets.runtime.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Attendance Monitoring v2.staticwebassets.endpoints.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Attendance Monitoring v2.exe
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Attendance Monitoring v2.deps.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Attendance Monitoring v2.runtimeconfig.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Attendance Monitoring v2.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Attendance Monitoring v2.pdb
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\scopedcss\bundle\Attendance Monitoring v2.styles.css
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\l9t0w8riq8-{0}-ncr731sus8-ncr731sus8.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\sj6ziazjh8-{0}-wor4o9q1uo-wor4o9q1uo.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendan.43F8166F.Up2Date
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\refint\Attendance Monitoring v2.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.pdb
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\Attendance Monitoring v2.genruntimeconfig.cache
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\ref\Attendance Monitoring v2.dll
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\ore6fud566-{0}-jp665g0un8-jp665g0un8.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\6cpm650uff-{0}-ddrt620hkn-ddrt620hkn.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\adv97irvp4-{0}-igmiuo8zat-igmiuo8zat.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\jzr06yp2ot-{0}-vz83177ijz-vz83177ijz.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\ggg6xu3k1h-{0}-mtqlxy70up-mtqlxy70up.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\ds1yq4q8gf-{0}-anx1wtiwmq-anx1wtiwmq.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\kaiss2xjh3-{0}-go26mn84yy-go26mn84yy.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\9a2b5430kx-{0}-yp25lc2mxa-yp25lc2mxa.gz
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\obj\Debug\net10.0\compressed\r1ps4di9nr-{0}-bb3j30nhwf-bb3j30nhwf.gz

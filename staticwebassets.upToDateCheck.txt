@@ -1,0 +1,22 @@
+wwwroot\about.css
+wwwroot\about.html
+wwwroot\ad.css
+wwwroot\dashboard.css
+wwwroot\dashboard.html
+wwwroot\index.html
+wwwroot\login.css
+wwwroot\present.html
+wwwroot\regist.css
+wwwroot\register.html
+wwwroot\admin.html
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\about.css
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\about.html
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\dashboard.css
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\dashboard.html
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\present.html
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\ad.css
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\index.html
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\login.css
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\regist.css
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\register.html
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\admin.html

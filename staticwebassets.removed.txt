@@ -1,0 +1,3 @@
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\admin.css
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\register.css
+C:\Users\ACER\.vscode\Attendance\Attendance Monitoring v2\Attendance Monitoring v2\wwwroot\style.css
