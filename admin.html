@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Attendance Monitoring</title>
+    <link rel="stylesheet" href="ad.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-box">
+        <h1>Login</h1>
+        <p>Full name</p>
+        <input type="text" id="username" placeholder="Enter username" />
+        <input type="password" id="password" placeholder="Enter password" />
+        <p id="msg" style="color:red;"></p>
+        <input type="button" value="Login" onclick="login()" />
+        <p>Sign in as <a href="index.html">Student</a></p>
+    </div>
+
+    <script>
+        async function login() {
+            const username = document.getElementById("username").value.trim();
+            const password = document.getElementById("password").value;
+            if (!username || !password) { document.getElementById("msg").textContent = "Please fill in all fields."; return; }
+
+            const res = await fetch("/api/admin/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, password })
+            });
+            const data = await res.json();
+            if (data.success) {
+                localStorage.setItem("adminName", data.fullName);
+                window.location.href = "dashboard.html";
+            } else {
+                document.getElementById("msg").textContent = "Invalid username or password.";
+            }
+        }
+    </script>
+</body>
+</html>

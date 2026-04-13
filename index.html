@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Attendance Monitoring</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <nav>
+        <div class="home"><p>Home</p></div>
+        <ul>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-box">
+        <h1>Login</h1>
+        <p>Full name</p>
+        <input type="text" id="fullname" placeholder="Enter name" />
+        <p>Section</p>
+        <input type="text" id="section" placeholder="Enter section" />
+        <p id="msg" style="color:red;"></p>
+        <input type="button" value="Login" onclick="login()" />
+        <p>Sign in as <a href="admin.html">Admin</a></p>
+    </div>
+
+    <script>
+        async function login() {
+            const fullName = document.getElementById("fullname").value.trim();
+            const section = document.getElementById("section").value.trim();
+
+            if (!fullName) { document.getElementById("msg").textContent = "Please enter your name."; return; }
+            if (!section) { document.getElementById("msg").textContent = "Please enter your section."; return; }
+
+            const res = await fetch("/api/attendance/mark", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ fullName, section })
+            });
+            const data = await res.json();
+            if (data.success) {
+                window.location.href = "present.html";
+            } else {
+                document.getElementById("msg").textContent = data.message;
+            }
+        }
+    </script>
+</body>
+</html>

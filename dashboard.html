@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Attendance Monitoring</title>
+    <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+    <nav>
+        <div class="home"><p>Dashboard</p></div>
+        <ul>
+            <li><a href="index.html" onclick="localStorage.clear()">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-box">
+        <h1>Dashboard</h1>
+        <p>Welcome, <strong id="adminName"></strong></p>
+
+        <div>
+            <button onclick="openPortal()">Open Portal</button>
+            <button onclick="closePortal()">Close Portal</button>
+            <span id="portalStatus"></span>
+        </div>
+
+        <h2>Today's Attendance</h2>
+        <p>Total Present: <strong id="total">0</strong></p>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Section</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTable">
+                    <tr><td colspan="5" style="text-align:center; padding: 24px; color: #999;">No records yet</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const adminName = localStorage.getItem("adminName") || "Admin";
+        document.getElementById("adminName").textContent = adminName;
+
+        async function checkPortal() {
+            const res = await fetch("/api/attendance/portal/status");
+            const data = await res.json();
+            document.getElementById("portalStatus").textContent =
+                data.isOpen ? " ✅ Portal is OPEN" : " 🔴 Portal is CLOSED";
+        }
+
+        async function openPortal() {
+            const res = await fetch(`/api/attendance/portal/open?adminUsername=${encodeURIComponent(adminName)}`, { method: "POST" });
+            const data = await res.json();
+            alert(data.message);
+            checkPortal();
+        }
+
+        async function closePortal() {
+            const res = await fetch("/api/attendance/portal/close", { method: "POST" });
+            const data = await res.json();
+            alert(data.message);
+            checkPortal();
+        }
+
+        async function loadAttendance() {
+            const res = await fetch("/api/attendance/today");
+            const data = await res.json();
+            document.getElementById("total").textContent = data.totalPresent;
+
+            const tbody = document.getElementById("studentTable");
+            if (!data.records || data.records.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:24px; color:#999;">No records yet</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = data.records.map((r, i) => {
+                const dt = new Date(r.markedAt);
+                const date = dt.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+                const time = dt.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" });
+                return `<tr>
+                        <td>${i + 1}</td>
+                        <td><strong>${r.studentName}</strong></td>
+                        <td>${r.section || "—"}</td>
+                        <td>${date}</td>
+                        <td>${time}</td>
+                    </tr>`;
+            }).join("");
+        }
+
+        checkPortal();
+        loadAttendance();
+        setInterval(loadAttendance, 10000);
+    </script>
+</body>
+</html>
